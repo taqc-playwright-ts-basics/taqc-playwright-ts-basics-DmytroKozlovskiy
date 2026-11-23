@@ -31,9 +31,6 @@
  * - реалізована різниця між optional і default-value параметром
  *   / the difference between an optional and a default-value parameter is implemented
  */
-
-import test from "node:test";
-
 // Done
 export function formatTestName(name: string, suite: string):string {
   return `[${suite}] ${name}`;
